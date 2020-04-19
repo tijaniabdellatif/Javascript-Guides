@@ -10,8 +10,8 @@ that we will see Along Two weeks.
  
 [1] Javascript Basics with new Features of `ES6`
 [2] Control Flow 
-[3] Functions and Methods
-[4] Objects
+[3] Objects and Arrays
+[4] Functions and Methods
 [5] Andvanced Javascript Objects and Functions
 [6] DOM
 [7] Form and Form Events
