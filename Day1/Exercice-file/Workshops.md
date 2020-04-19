@@ -5,6 +5,7 @@
 * Let comments in the solutions about what you deduct
 
 1. Evaluate the below:
+```
 5 + "34"
 5 - "4"
 10 % 5
@@ -18,9 +19,10 @@ false + true
 false - true
 3 - 4
 "Bob" - "bill"
-
-
+```
 2. Evaluate the below comparisons:
+
+```
 5 >= 1
 0 === 1
 4 <= 1
@@ -31,7 +33,7 @@ false - true
 "b" < "A"
 true === false
 true != true
-
+```
 
 3. Make the string: "hello! It's "rainy" out" by using the + sign
 
@@ -42,13 +44,12 @@ true != true
 1. add variable "firstName" and "lastName" // so that they equal your name
 2. create a variable that holds the answer // of "firstName" + " " + "lastName"
 3. Evaluate this question. What is a + b?
-var a = 34;
+```var a = 34;
 var b = 21;
 a = 2;
 a + b // what is the answer here?
 1. What is c equal to?
-var c;
-
+var c;```
 
 ## Wokrshop 3 :
 
