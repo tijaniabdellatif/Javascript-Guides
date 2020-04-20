@@ -63,11 +63,11 @@ var c;
 * Make a smart car! This car will only let you drive if you are over 18. Make it do the following:
 1. using prompt() and alert(), ask a user for their age.
 2. IF they say they are below 18, respond with:
-  `Sorry, i can let you drive me`
+`Sorry, i can let you drive me`
 3. IF they say they are 18, respond with:
-   `Sorry, i can let you drive me`
+  `you can drive me but carefully`
 3. IF they say they are over 18, respond with:
-  `Sorry, i can let you drive me`
+  `yes, you can drive`
 
   Do the same using : `switch case statement`
 
