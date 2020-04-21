@@ -33,7 +33,8 @@ if(x<18){
 //         case x<18 :
 //             alert('yes , you can let you drive me')
 //             break;
-
-//     }
+//             default:
+//             alert(  'Sorry, i can`t let you drive me')
+//     };
 
 
