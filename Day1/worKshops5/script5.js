@@ -14,7 +14,7 @@ const output = score.reduce( (a,b) =>{
 console.log('=== the average is ===');
  var moyenne = Math.floor(output / 3);
 
- console.log('the name §{name} has an average of :'+ moyenne)
+ console.log( `the name ${name} has an average of :`+ moyenne)
 return moyenne ;
 
 
