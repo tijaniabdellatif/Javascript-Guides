@@ -17,4 +17,4 @@ cont people = [
      html += 
      <li style="color:red">${tt}</li>;
  });
- ul.innerHTML
+ ul.innerHTML = html;
