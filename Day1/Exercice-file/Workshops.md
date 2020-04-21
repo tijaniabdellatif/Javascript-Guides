@@ -56,7 +56,7 @@ var c;
  1. Prompts the user for first number.
  2. Stores that first number
  3. Prompts the user for the second number.
- 4. stores that number and responds with the SUM by using an alert.  
+ 4. stores that number and responds with the SUMMARY by using an alert.  
  5. Make a program that can subtract, multiply, and also divide!(-, * , /).
 
 ## Wokrshop 4 :
@@ -78,6 +78,8 @@ var c;
 1. Calculate the average(la moyenne) score of each one 
 2. Decide which one win in average (the highest one), and print the winner with the score in the console
 3. Salim plays also with them and had scores of 20,88,120 so decide who is the winner between Karim Amine and Salim,using their highest average
+
+/* function : va me creer les joueurs avec leur score*/
 
 
 **GOOD LUCK** 
