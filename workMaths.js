@@ -9,7 +9,7 @@
 //     console.log(value);
 // })
 const ul = document.querySelector('.names');
-cont people = [
+const people = [
 'karim','abdou','salim'];
  let html = ``;
 
