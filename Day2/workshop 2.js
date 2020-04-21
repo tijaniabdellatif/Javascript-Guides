@@ -38,4 +38,4 @@ function perimeter(p)
    console.log(`le Périmètre du triangle est : ${p}`);
    return p;
 }
-Perimeter();
+perimeter();
