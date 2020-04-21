@@ -12,5 +12,4 @@ switch (x) {
 
 	default:
 		alert(`yes, you can drive`);
-		break;
 }
