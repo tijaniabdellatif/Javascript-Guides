@@ -20,7 +20,8 @@ function total(a,b,c)
     a=Number(prompt('entrer la valeur de a'));
     b=Number(prompt('entrer la valeur b'));
     c=Number(prompt('entrer la valeur c'));
-    let delta=b*b-4*a*c;
+//  let delta=b*b-4*a*c;
+    let delta=b**2-4*a*c;
     let E1;
     let Z2;
     if(delta<0)
