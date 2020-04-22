@@ -64,8 +64,6 @@ var c;
 1. using prompt() and alert(), ask a user for their age.
 2. IF they say they are below 18, respond with:
   `Sorry, i can let you drive me`
-3. IF they say they are 18, respond with:
-   `Sorry,  you can drive me but carefully`
 3. IF they say they are over 18, respond with:
   `yes, you can drive`
 
