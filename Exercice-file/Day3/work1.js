@@ -5,11 +5,11 @@ let getMony={
         { name: "hamid",  age: 32, budget: 40000 },
         { name: "soufiane",  age: 16, budget: 3500 }
     ],
-    SumMony:function(name)
+    SumMony:function()
     {
         const fect=this.people.reduce((acc,curr)=>{
 
-            if(curr.name==name)
+            if(curr.name)
             {
                 acc+=curr.budget;
             }
@@ -20,4 +20,4 @@ let getMony={
        
     }
 };
-console.log(getMony.SumMony("amine"));
+console.log(getMony.SumMony());
