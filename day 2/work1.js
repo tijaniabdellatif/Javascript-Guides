@@ -28,3 +28,4 @@ function equations( a, b, c) {
   }
 
 equations(); 
+
