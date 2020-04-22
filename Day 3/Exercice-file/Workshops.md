@@ -13,7 +13,7 @@ getMoney([
 ]) ➞ return(Some of money)
 ```
 
-**GOOD LUCK** 
+
 
 ## workshop 2 :
 
@@ -85,4 +85,4 @@ people({
 ```
 
 
-
+**GOOD LUCK** 
