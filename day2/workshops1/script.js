@@ -9,7 +9,7 @@ function equations( a, b, c) {
   a=Number (num1);
   b=Number(num2); 
   c=Number(num3);
-   console.log (typeof a);
+ 
   delta = (b*b) - (4*a*c);
 
   x = (-b)/(2*a); 
