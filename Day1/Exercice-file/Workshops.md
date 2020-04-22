@@ -65,15 +65,7 @@ var c;
 2. IF they say they are below 18, respond with:
   `Sorry, i can let you drive me`
 3. IF they say they are 18, respond with:
-<<<<<<< HEAD
-<<<<<<< HEAD
-  `you can drive me but carefully`
-=======
    `Sorry,  you can drive me but carefully`
->>>>>>> 91c064f0fce0e55562cc5ba6e1e1d8c7a8aa63b0
-=======
-   `Sorry,  you can drive me but carefully`
->>>>>>> 300f3208b577bb88a689100ba47ee60956c3d27e
 3. IF they say they are over 18, respond with:
   `yes, you can drive`
 
