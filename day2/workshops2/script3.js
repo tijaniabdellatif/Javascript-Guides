@@ -8,7 +8,7 @@ function triangle(ab,ac,cb,h) {
 
       const trg = [ ab,ac,cb,h]
     
-    if(ab == ac) 
+    if(ab == ac && ac!=cb) 
     {
         console.log(`triangle isocel`);
 }
@@ -22,7 +22,28 @@ else if(ab==ac && ac==cb)
     }
  return trg ;
 }
-triangle ();
+
+triangle(); 
+
+const srf = triangle(); 
+function calculArea(area){
+    area = (srf [2]*srf[3])/2;
+    console.log(`Area the triangle is ${area}`);
+    return area;
+}
+
+calculArea();
+  
+function Preimeter(prmt){
+    prmt = srf[0]+srf[1]+srf[2];
+
+    console.log(`Preimeter the triangle is ${prmt}`);
+
+    return prmt;
+}
+
+Preimeter();
+
 
 
 
