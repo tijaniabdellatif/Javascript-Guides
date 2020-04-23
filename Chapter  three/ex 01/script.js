@@ -16,29 +16,36 @@
 
 
 
-let card =[
+let budget =[
     {
     name: 'amine', 
-    age : '21', 
-    budget : '15000'
+    budget : '15000',
+    
     },
     {
         name: 'hamid', 
-        age : '32', 
-        budget : '40000', 
-        },
-        {
-            name: 'ragoubi', 
-            age : '16', 
-            budget : '3500', 
-            },
+        budget : '40000',
+        
+    },
+     {
+          name: 'ragoubi', 
+          budget : '3500', 
+           
+    },
 
-]
- displayInfo : function()
- { 
-        console.log(`${card.name} Some of money ${card.age} at ${card.budget}`)
-    };
+];
 
-card.displayInfo();
+let  totalbudget = budget.reduce((prevVal, elem) => prevVal + elem.budget, 0);
+ 
+
+console.log(totalbudget); //totalbudget:553500
+
+
+
+ //{ 
+ //   card.reduce(`${card.budget} Some of money ${card.budget} at ${card.budget}`)
+ // };
+
+
 
 
