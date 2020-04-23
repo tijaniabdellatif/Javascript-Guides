@@ -63,13 +63,7 @@ var c;
 * Make a smart car! This car will only let you drive if you are over 18. Make it do the following:
 1. using prompt() and alert(), ask a user for their age.
 2. IF they say they are below 18, respond with:
-`Sorry, i can let you drive me`
-3. IF they say they are 18, respond with:
-<<<<<<< HEAD
-   `Sorry,  you can drive me but carefully`
-=======
-  `you can drive me but carefully`
->>>>>>> 8cb7ee1bc63413074154df0e66223d3c4658901b
+  `Sorry, i can let you drive me`
 3. IF they say they are over 18, respond with:
   `yes, you can drive`
 
