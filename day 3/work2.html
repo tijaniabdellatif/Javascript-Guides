@@ -6,7 +6,7 @@
 <body>
 
 
-    <script type="text/javascript">
+    <script>
 
 
         function isEligible(arr){
@@ -17,12 +17,14 @@
             return summ;
         }
 
-        var arr = new Array(1.99, 5.99, 41.99);
+        var arr = new Array(11.99, 35.99, 41.99);
         var result = isEligible(arr);
         console.log(result);
         if (result > 50) {
                 console.log('you are free to shop');
-            }else{
+            }
+            
+            else{
                 console.log('you are not');
             }
 

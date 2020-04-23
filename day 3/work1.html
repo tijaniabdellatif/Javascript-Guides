@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        let getPrice={
+                    
+            people:[
+                { name: "amine",  age: 21,  budget: 15000 },
+                { name: "hamid",  age: 32, budget: 40000 },
+                { name: "soufiane",  age: 16, budget: 3500 }
+                ],
+            SomeOfMoney:function()
+                {
+                const fect=this.people.reduce((acc,curr)=>{
+                    if(curr.name)
+                        {
+                            acc+=curr.budget;
+                        }
+                            return acc;
+                        },0)
+                        
+                        return fect;
+                    
+                    }
+                };
+         console.log(getPrice.SomeOfMoney());
+         
+    </script>
+</body>
+</html>
