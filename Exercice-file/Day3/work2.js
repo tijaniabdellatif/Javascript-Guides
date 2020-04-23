@@ -17,4 +17,4 @@ function Sumfre(arr)
    
 
 }
-Sumfre([5,6,1])
+Sumfre({tomate:39,dadossa:20,parshi: 35})
