@@ -52,7 +52,7 @@ try to use the loop for(const key in array)
 ```
 people({
   amine: 71,
-  hamid: 45,
+  hamid: 45
   salim: 15,
   karim: 29
 }) ➞ "salim"
