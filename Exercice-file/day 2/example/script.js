@@ -1,11 +1,9 @@
-function equation (a,b,c) {
-    const value1 = prompt('enter first value');
-          value2 = prompt('enter second value');
-          value3 = prompt('enter third value');
+//worlshop 1
+const equation = (a,b,c) => {
+    a = Number(prompt('enter first value'));
+    b = Number(prompt('enter second value'));
+    c = Number(prompt('enter third value'));
 
-          a = Number(value1);
-          b = Number(value2);
-          c = Number(value3);
 
     delta = (b*b) - (4*a*c); 
     
@@ -14,7 +12,7 @@ function equation (a,b,c) {
     {
         x1 = ((-b) - Math.sqrt(delta))/(2*a);
         x2 = ((-b) + Math.sqrt(delta))/(2*a); 
-        alert(`tow solution is ${x1} and ${x2}`);
+        alert(`two solution is ${x1} and ${x2}`);
     }
 
     else if(delta == 0)
@@ -32,3 +30,8 @@ function equation (a,b,c) {
 }
 
 equation();
+
+
+
+
+
