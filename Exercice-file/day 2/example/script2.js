@@ -21,8 +21,6 @@ function triangle (ab,ac,cb,h){
 
     return triangle;
 
-    
-    
 }
 
 const rturn = triangle(); //for return the parametres array we need create variable for that
