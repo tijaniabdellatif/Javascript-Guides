@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>solution ex 01</title>
+</head>
+<body>
+   <h> soulition workshop 1 </h>
+
+
+
+   <script>
+let totalbudget={
+    
+    solde:[
+    {
+    name: 'amine', 
+    budget : '15000',
+    
+    },
+    {
+        name: 'hamid', 
+        budget : '40000',
+        
+    },
+     {
+          name: 'ragoubi', 
+          budget : '3500', 
+           
+    },
+
+],
+    Mony:function()
+    {
+        const fect=this.solde.reduce((acc,curr)=>{
+
+            if(curr.name)
+            {
+                acc+=curr.budget;
+            }
+            return acc;
+        },0)
+        
+        return fect;
+       
+    }
+};
+console.log(totalbudget.Mony());
+
+   </script>
+</body>
+</html>
