@@ -16,11 +16,11 @@ let names = [
         moneyCredit:10000
     }
 ]
-console.log(names);
+// console.log(names);
 
 
 const moneyTotal = names.reduce(
-    (accumulateur, valeurCourante) => accumulateur + valeurCourante.moneyCredit
+    (accu, valeurCourante) => accu + valeurCourante.moneyCredit
     , 0
 );
 
