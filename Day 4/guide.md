@@ -4,7 +4,7 @@
 * changing attributes
 * changing CSS
 * add new Html elements
-* understing the node technique and parent and children elements
+* understingg the node technique and parent and children elements
 * Generating events 
 
 ## List of Methods : 
