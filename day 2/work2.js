@@ -22,3 +22,22 @@ else
 return trg ;
 }
 triangle ();
+
+
+var rtn=Traingle();
+function calculArea(sur)
+{
+   sur=(rtn[2]*rtn[3])/2;
+   console.log(`la surface de traingle est : ${sur}`);
+   return sur;
+
+}
+calculArea();
+
+function Perimeter(p)
+{
+   p=rtn[0]+rtn[1]+rtn[2];
+   console.log(`le Périmètre du triangle est : ${p}`);
+   return p;
+}
+Perimeter(); 
