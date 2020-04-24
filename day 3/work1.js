@@ -18,7 +18,7 @@ let names = [ {
 console.log(names);
 
 
-const moneyTotal = names.reduce(
+const someMoney = names.reduce(
     (accumulateur, valeurCourante) => accumulateur + valeurCourante.budget
     , 0
 );
