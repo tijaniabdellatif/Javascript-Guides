@@ -31,7 +31,7 @@ Question1:
 var firstName="Cheymae";
 var lastName="Raoudi"
 Question2:
-console.log(firstName + " " + lastName);// output "Zineb Belassiri"
+console.log(firstName + " " + lastName);// output "Cheymae Raoudi"
 Question3:
 var a=34;
 var b=21;
@@ -116,8 +116,3 @@ if (avg2 > avg1 && avg1 > avg3) {
 
 } else {
     alert('average avg3 is the bigger one');
-  
-  
-
-
-
