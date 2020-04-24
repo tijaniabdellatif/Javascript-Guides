@@ -49,54 +49,53 @@ var a = prompt("Enter number");
 var b = prompt("Enter second number");
 var s = prompt("Enter operation must be +, -, /, or *");
 
-switch(s){
-  case '+':
-    alert(Number(a) + Number(b));
-    break;
-  case '-':
-    alert(Number(a) - Number(b));
-    break;    
-  case '/':
-    alert(Number(a) / Number(b));
-    break;   
-  case '*':
-    alert(Number(a) * Number(b));
-    break;
-default:
-  alert("Operation error. Try again.")     
-} 
+switch (s) {
+    case '+':
+        alert(Number(a) + Number(b));
+        break;
+    case '-':
+        alert(Number(a) - Number(b));
+        break;
+    case '/':
+        alert(Number(a) / Number(b));
+        break;
+    case '*':
+        alert(Number(a) * Number(b));
+        break;
+    default:
+        alert("Operation error. Try again.")
+}
 **********************************************************Workshop4:********************************************************************
-var age=prompt("entrer votre age");
+var age = prompt("entrer votre age");
 
-switch(age)
-{
+switch (age) {
     case 0:
-     age<18; 
-     alert("Sorry, i can't let you drive me");
-     break; //
-     
-     case 1:
-     age>=18 && age<=40;
-     alert(" i can let you drive me");
-     break;
-    
-     default:
-          alert("Sorry, i can't let you drive me");
+        age < 18;
+        alert("Sorry, i can't let you drive me");
+        break; //
+
+    case 1:
+        age >= 18 && age <= 40;
+        alert(" i can let you drive me");
+        break;
+
+    default:
+        alert("Sorry, i can't let you drive me");
 }
 **********************************************************workshop5:********************************************************************
-function arrayAverage(arr){
-    
+function arrayAverage(arr) {
+
     var sum = 0;
-    for(var i in arr){
+    for (var i in arr) {
         sum += arr[i];
     }
-    
+
     var arrayL = arr.length;
-     
+
     return (sum / arrayL);
 }
 var arr1 = new Array(16, 45, 80);
-var arr2 = new Array (19, 40, 99);
+var arr2 = new Array(19, 40, 99);
 var arr3 = new Array(20, 88, 120);
 
 var avg1 = arrayAverage(arr1);
@@ -109,13 +108,13 @@ var avg3 = arrayAverage(arr3);
 console.log(avg3);
 
 /**/
-if(avg1 > avg2 && avg2 > avg3){ //Et
+if (avg1 > avg2 && avg2 > avg3) { //Et
     alert('average avg1 is the bigger one');
-}else
- if(avg2 > avg1 && avg1 > avg3){
-     alert('average avg2 is the bigger one');
+} else
+if (avg2 > avg1 && avg1 > avg3) {
+    alert('average avg2 is the bigger one');
 
-}else{
+} else {
     alert('average avg3 is the bigger one');
   
   
