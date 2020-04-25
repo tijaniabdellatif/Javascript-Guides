@@ -18,7 +18,5 @@ let people = {
 
 // console.log(getMinor(people))
 
-const getMinor = people.filter(age => 18)
-console.log(getMinor)
+console.log(Object.getOwnPropertyNames(people).filter(age => people[age] <=18));
 
-// console.log(Object.getOwnPropertyNames(people).filter(prop => veg[prop] > 5));
