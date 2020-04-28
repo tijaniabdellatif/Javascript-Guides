@@ -46,19 +46,28 @@ for(key in filter){
 }
 
 
+
+console.log('===============================');
 articleSup.forEach(elem =>{
 
     elem.classList.add('item');
-})
+});
 
 //parent
 const title = document.querySelector('h2');
+console.log('===============================');
 console.log(title.parentElement.parentElement);
+console.log('===============================');
 console.log(title.parentNode);
+console.log('===============================');
 console.log(title.previousSibling);
+console.log('===============================');
 console.log(title.nextElementSibling);
+console.log('===============================');
 console.log(title.nextSibling.previousSibling);
+console.log('===============================');
 console.log(title.parentNode);
+console.log('===============================');
 console.log(title.parentElement.childNodes);
-console.log('=================');
+console.log('===============================');
 console.log(title.nextElementSibling.parentElement.children);
