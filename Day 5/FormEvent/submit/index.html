@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+         body{
+                 background:lightgoldenrodyellow;
+
+         }
+      form {
+          max-width:200px;
+          margin:40px auto;
+          background: white;
+          padding : 10px;
+          text-align:center;
+      }
+
+      input{
+
+          display:block;
+          margin:10px auto;
+          padding:4px;
+      }
+
+  
+    </style>
+</head>
+<body>
+
+    <form class="sign">
+        <input type="radio" id="choix" name="genre" value="choix" checked>
+        <label for ="choix">Choooose </label> <br />
+            <input type="radio" id="choix1" name="genre" value="choix1">
+            <label for="choix1">Looose</label> <br />
+                <input type="radio" id="choix2" name="genre" value="choix2">
+                <label for="choix2">Who's</label> <br />
+        <input type = "text" id="username" placeholder="Username">
+        <input type ="submit" value="submit">
+        <div class="feedback"></div>
+    </form>
+
+    <div id="response"></div>
+    
+
+    <script src ="index.js"></script>
+</body>
+</html>
