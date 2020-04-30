@@ -1,5 +1,8 @@
 # Javascript-Guides
 It's a bunch of Javascript guides
+
+
+
 //Workshop "1" day3
 Create a function that takes an array with objects and returns the sum of people's Money
 
@@ -13,7 +16,7 @@ getMoney([
   { name: "soufiane",  age: 16, budget: 3500 }
 ]) ➞ return(Some of money)
 
-///////////////////////////////////
+/////////////////////////////////////////////////////////////////////////
 
 //workshop "2" day3 
 Create a function that determines whether an order is eligible for free shipping.
@@ -34,7 +37,7 @@ free(
 
 try to use the loop for(const key in array)
 
-///////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////
 
 workshop "3" day3 
 
@@ -53,7 +56,7 @@ people({
 
 //'chick same links in GITHUB'
 
-//////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////
 
 //workshop "4" day3
 
@@ -70,3 +73,24 @@ hints
 [
   { name: "amine", topNote: 5}
 ]
+
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
+{$day/'4'}:
+
+
+Workshop 1:
+Making a simple to Do list :
+__in this workshop we will aprehend what we have seen in DOM and simple events handling
+
+Steps to create the project are:
+
+Using the Given HTML template :
+__Create an Event on the input('keypress') and on the button('click') allowing us to add list of Todos
+
+__add an Event that delete the items from the list of item.
+
+__when Adding a new Item, a delete icon is added automatically and control the delete.
+
+__Use refactoring to make the code clean and dry
