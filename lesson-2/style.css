@@ -1,0 +1,72 @@
+*,
+*::before,
+*::after {
+
+     box-sizing: border-box;
+     margin:0;
+     padding:0;
+
+
+}
+
+/*
+  top,left,right,bottom,z-index
+*/
+
+.container {
+
+      width:500px;
+      height:250px;
+      border:1px solid black;
+      background-color: #b3c45f;
+       position: relative;
+     
+
+}
+
+.child {
+
+     height:150px;
+    width:150px;
+    border:1px solid red;
+  
+    background-color: red;
+    position: absolute;
+
+    
+   
+
+}
+
+.text {
+
+    font-size: 20px;
+    color:red;
+    position: relative;
+    margin:15px;
+}
+
+.text::after {
+
+      content:"🤚";
+      position:absolute;
+      
+      
+}
+
+.btn {
+
+      font-size: 20px;
+      padding:15px;
+      background: transparent;
+      outline:none;
+      cursor: pointer;
+      transition: all 0.5s ease-in-out;
+}
+
+.btn:hover {
+
+     color:white;
+     background-color: black;
+
+}
